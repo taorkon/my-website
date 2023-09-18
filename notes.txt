@@ -4,3 +4,5 @@ about short, move to personal page if more (or mb open\widen? and deminishing wh
 
 стрелочка наверх пиксельная стики, при клике разлетаются диско звездочки
 как настроить визуал для загрузки? (дискошар или радугу)
+
+for resources evety resource like a button with whiite borders,  must with gradient background (or gradient moving border and letters?)

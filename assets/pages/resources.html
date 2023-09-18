@@ -5,101 +5,178 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="images/logo.svg" />
+    <link rel="stylesheet" href="../styles/css/normalize.css">
+    <link rel="stylesheet" href="../styles/css/styles.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&family=Roboto+Condensed:wght@300&display=swap"
+        rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
     <title>Recources</title>
 </head>
 
-<body>
-    <!DOCTYPE html>
-    <html>
+<main>
+    <header class="header">
+        <div class="navbar">
+            <menu class="menu">
+                <ul class="menu__lst">
+                    <!--<li class="menu__id">About</li>-->
+                    <li class="menu__id">Projects</li>
+                    <li class="menu__id">Contacts</li>
+                    <li class="menu__id">More</li>
+                    <li class="menu__id"><a href="assets/pages/resources.html" class="menu__link"
+                            target="_blank">Resources</a></li>
+                </ul>
+            </menu>
+        </div>
+    </header>
+    <main>
+        <section class="resources">
+            <h2 class="resources__headline">General</h2>
+            <ul class="resources__list">
+                <li class="resources__item"><a target="_blank" href="https://chat.openai.com/"
+                        class="resources__link">ChatGPT</a></li>
+                <li class="resources__item resources__item-must"><a target="_blank" href="https://roadmap.sh/frontend"
+                        class="resources__link resources__link-must">Frontend Roadmap</a></li>
+                <li class="resources__item resources__item-must"><a target="_blank"
+                        href="https://developer.mozilla.org/en-US/"
+                        class="resources__link resources__link-must">WebDocs</a></li>
+                <li class="resources__item resources__item-must"><a target="_blank" href="https://www.freecodecamp.org/"
+                        class="resources__link resources__link-must">Free Code Camp</a></li>
+                <li class="resources__item resources__item-must"><a target="_blank" href="https://www.w3schools.com/"
+                        class="resources__link resources__link-must">W3Schools</a></li>
+                <li class="resources__item resources__item-must"><a target="_blank" href="https://stackoverflow.com/"
+                        class="resources__link resources__link-must">Stack
+                        Overflow</a></li>
+                <li class="resources__item"><a target="_blank" href="https://caniuse.com/" class="resources__link">Can I
+                        use</a></li>
+            </ul>
 
-    <head>
-        <title>Useful Links</title>
-    </head>
+            <h2 class="resources__headline">CSS</h2>
+            <ul class="resources__list">
+                <li class="resources__item"><a target="_blank"
+                        href="https://www.codecademy.com/learn/learn-intermediate-css"
+                        class="resources__link">Intermediate
+                        CSS Course
+                        Codecademy</a></li>
+                <li class="resources__item"><a target="_blank" href="https://grid.layoutit.com/"
+                        class="resources__link">Generate Code For Grid
+                        Layout</a></li>
+                <li class="resources__item"><a target="_blank" href="https://tpverstak.ru/flex-cheatsheet/"
+                        class="resources__link">Шпаргалка по CSS</a></li>
+                <li class="resources__item resources__item-must"><a target="_blank" href="https://cssgradient.io/"
+                        class="resources__link">CSS
+                        Gradient Generator</a>
+                </li>
+                <li class="resources__item resources__item-must"><a target="_blank" href="https://csshero.org/mesher/"
+                        class="resources__link">CSS
+                        Mesh Gradient Generator
+                        (multiple
+                        colours)</a></li>
+                <li class="resources__item"><a target="_blank" href="https://cssgradient.io/blog/css-gradient-text/"
+                        class="resources__link">CSS Gradient Text</a></li>
+                <li class="resources__item"><a target="_blank" href="https://codepen.io/jh3y/pen/gOeGmRN"
+                        class="resources__link">CSS Text Effects</a></li>
+                <li class="resources__item"><a target="_blank" href="https://gradientbuttons.colorion.co/"
+                        class="resources__link">Gradient Buttons #css
+                        #design</a></li>
+                <li class="resources__item"><a target="_blank"
+                        href="https://www.svgbackgrounds.com/how-to-add-svgs-with-css-background-image/"
+                        class="resources__link">SVG as background with
+                        CSS</a>
+                </li>
+                <li class="resources__item"><a target="_blank" href="https://www.svgbackgrounds.com/tools/svg-to-css/"
+                        class="resources__link">SVG to CSS converter</a>
+                </li>
+            </ul>
 
-    <body>
-        <h2 class="resources__headline">1. General</h2>
-        <ul class="resources__list">
-            <li class="resources__item"><a href="https://bespoyasov.ru/front-not-pain/" class="resources__link">Фронтенд
-                    не больно</a></li>
-            <li class="resources__item"><a href="https://habr.com/ru/companies/yandex_praktikum/articles/730344/"
-                    class="resources__link">Ресурсы Фронтенд</a></li>
-            <li class="ritem"><a href="#" class="resourcesources__link">ChatGPT</a></li>
-            <li class="ritem"><a href="#" class="resourcesources__link">Frontend Roadmap</a></li>
-            <li class="ritem"><a href="#" class="resourcesources__link">WebDocs</a></li>
-            <li class="ritem"><a href="#" class="resourcesources__link">Free Code Camp</a></li>
-            <li class="ritem"><a href="https://www.w3schools.com/" class="resourcesources__link">W3Schools Online Web
-                    Tutorials</a></li>
-            <li class="ritem"><a href="https://stackoverflow.com/" class="resourcesources__link">Stack Overflow - Where
-                    Developers Learn, Share, & Build Careers</a></li>
-            <li class="ritem"><a href="https://caniuse.com/" class="resourcesources__link">Can I use... Support tables
-                    for HTML5, CSS3, etc</a></li>
-            <li class="ritem"><a href="https://colorcode.com/" class="resourcesources__link">ColorCode (HTML, CSS, JS
-                    Tutorials)</a></li>
-        </ul>
+            <h2 class="resources__headline">JS</h2>
+            <ul class="resources__list">
+                <li class="resources__item"><a target="_blank" href="https://github.com/getify/You-Dont-Know-JS"
+                        class="resources__link">You Don't Know JS (good for interviews)</a></li>
+                <li class="resources__item resources__item-must"><a target="_blank" href="https://javascript.info/"
+                        class="resources__link resources__link-must">The Modern JavaScript
+                        Tutorial</a></li>
+                <li class="resources__item resources__item-must"><a target="_blank" href="https://www.codewars.com/"
+                        class="resources__link resources__link-must">Codewars</a></li>
+                <li class="resources__item resources__item-must"><a target="_blank" href="https://leetcode.com/"
+                        class="resources__link resources__link-must">LeetCode</a></li>
+                <li class="resources__item"><a target="_blank" href="https://javascript30.com/"
+                        class="resources__link">30
+                        day challenge for JS projects</a></li>
+                <li class="resources__item"><a target="_blank" href="https://youtu.be/cCOL7MC4Pl0"
+                        class="resources__link">Assyncronisity, event loops video </a></li>
+            </ul>
+            <h2 class="resources__headline">Design</h2>
+            <ul class="resources__list">
+                <li class="resources__item"><a target="_blank" href="https://unsplash.com/"
+                        class="resources__link">Unsplash</a></li>
+                <li class="resources__item resources__item-must"><a target="_blank" href="https://www.flaticon.com/ru/"
+                        class="resources__link">Flaticon</a></li>
+                <li class="resources__item"><a target="_blank" href="https://nucleoapp.com/tool/icon-transition"
+                        class="resources__link">Icon Transition
+                        Generator</a>
+                </li>
+                <li class="resources__item resources__item-must"><a target="_blank" href="https://www.figma.com/"
+                        class="resources__link ">Figma</a>
+                </li>
+                <li class="resources__item resources__item-must"><a target="_blank" href="https://coolors.co/"
+                        class="resources__link">Color
+                        Palette Generator</a>
+                </li>
+            </ul>
 
-        <h2 class="resources__headline">2. Design</h2>
-        <ul class="resources__list">
-            <li class="ritem"><a href="https://unsplash.com/" class="resourcesources__link">Unsplash: Beautiful Free
-                    Images & Pictures</a></li>
-            <li class="ritem"><a href="#" class="resourcesources__link">Flaticon</a></li>
-            <li class="ritem"><a href="#" class="resourcesources__link">Icon Transition Generator</a></li>
-            <li class="ritem"><a href="https://www.figma.com/" class="resourcesources__link">Figma: The Collaborative
-                    Interface Design Tool</a></li>
-            <li class="ritem"><a href="#" class="resourcesources__link">Color Palette Generator</a></li>
-        </ul>
+            <h2 class="resources__headline">Fonts</h2>
+            <ul class="resources__list">
+                <li class="resources__item"><a target="_blank" href="https://www.fontsquirrel.com/matcherator"
+                        class="resources__link">Font Identifier</a></li>
+                <li class="resources__item resources__item-must"><a target="_blank" href="https://www.fontspace.com"
+                        class="resources__link ">Fonts</a></li>
+            </ul>
+            <h2 class="resources__headline">Maps with JS</h2>
+            <ul class="resources__list">
+                <li class="resources__item"><a target="_blank"
+                        href="https://soshace.com/mapping-the-world-creating-beautiful-maps-and-populating-them-with-data-using-d3-js/?hmsr=joyk.com&utm_source=joyk.com&utm_medium=referral"
+                        class="resources__link">Mapping the World</a></li>
+                <li class="resources__item"><a target="_blank" href="https://d3js.org/" class="resources__link">Library
+                        for
+                        Mapping</a></li>
+            </ul>
 
-        <h2 class="resources__headline">3. Fonts</h2>
-        <ul class="resources__list">
-            <li class="ritem"><a href="#" class="resourcesources__link">Font Identifier</a></li>
-            <li class="ritem"><a href="https://www.fontspace.com" class="resourcesources__link">Fonts</a></li>
-            <li class="ritem"><a href="#" class="resourcesources__link">Intermediate CSS Course Codecademy</a></li>
-            <li class="ritem"><a href="#" class="resourcesources__link">Generate Code For Grid Layout</a></li>
-            <li class="ritem"><a href="#" class="resourcesources__link">Шпаргалка по CSS</a></li>
-            <li class="ritem"><a href="#" class="resourcesources__link">CSS Gradient Generator</a></li>
-            <li class="ritem"><a href="#" class="resourcesources__link">CSS Mesh Gradient Generator (multiple
-                    colours)</a></li>
-            <li class="ritem"><a href="#" class="resourcesources__link">CSS Gradient Text</a></li>
-            <li class="ritem"><a href="#" class="resourcesources__link">CSS Text Effects</a></li>
-            <li class="ritem"><a href="#" class="resourcesources__link">Gradient Buttons #css #design</a></li>
-            <li class="ritem"><a href="#" class="resourcesources__link">SVG as background with CSS</a></li>
-            <li class="ritem"><a href="#" class="resourcesources__link">SVG to CSS converter</a></li>
-        </ul>
+            <h2 class="resources__headline">DNS</h2>
+            <ul class="resources__list">
+                <li class="resources__item"><a target="_blank" href="#" class="resources__link">DNS Resource 1</a></li>
+                <li class="resources__item"><a target="_blank" href="#" class="resources__link">DNS Resource 2</a></li>
+                <li class="resources__item"><a target="_blank" href="#" class="resources__link">DNS Resource 3</a></li>
+            </ul>
 
-        <h2 class="resources__headline">4. JS</h2>
-        <ul class="resources__list">
-            <li class="ritem"><a href="https://github.com/getify/You-Dont-Know-JS" class="resourcesources__link">FOR
-                    INTERVIEWS</a></li>
-            <li class="ritem"><a href="#" class="resourcesources__link">The Modern JavaScript Tutorial</a></li>
-            <li class="resources__item"><a href="https://www.codewars.com/" class="resources__link">Codewars - Achieve mastery through coding practice and developer …</a></li>
-            <li class="resources__item"><a href="https://leetcode.com/" class="resources__link">LeetCode - The World's Leading Online Programming Learning ...</a></li>
-            <li class="resources__item"><a href="https://javascript30.com/" class="resources__link">30 day challenge for JS projects</a></li>
-            <li class="resources__item"><a href="https://youtu.be/cCOL7MC4Pl0" class="resources__link">Assyncronisity, event loops video https://youtu.be/cCOL7MC4Pl0</a></li>
-        </ul>
-    
-        <h2 class="resources__headline">5. Maps with JS</h2>
-        <ul class="resources__list">
-            <li item"><a href="#" class="resourcesass="resources__link">Mapping the World</a></li>
-            <li item"><a href="#" class="resourcesass="resources__link">Library for Mapping</a></li>
-            <li item"><a href="#" class="resourcesass="resources__link">Youtube</a></li>
-            <li item"><a href="#" class="resourcesass="resources__link">ColorCode JS</a></li>
-        </ul>
-    
-        <h2 class="resources__headline">6. DNS</h2>
-        <ul class="resources__list">
-            <li item"><a href="#" class="resourcesass="resources__link">DNS Resource 1</a></li>
-            <li item"><a href="#" class="resourcesass="resources__link">DNS Resource 2</a></li>
-            <li item"><a href="#" class="resourcesass="resources__link">DNS Resource 3</a></li>
-        </ul>
-    
-        <h2 class="resources__headline">7. React</h2>
-        <ul class="resources__list">
-            <li item"><a href="#" class="resourcesass="resources__link">React Resource 1</a></li>
-            <li item"><a href="#" class="resourcesass="resources__link">React Resource 2</a></li>
-            <li item"><a href="#" class="resourcesass="resources__link">React Resource 3</a></li>
-        </ul>
+            <h2 class="resources__headline">React</h2>
+            <ul class="resources__list">
+                <li class="resources__item"><a target="_blank" href="#" class="resources__link">React Resource 1</a>
+                </li>
+                <li class="resources__item"><a target="_blank" href="#" class="resources__link">React Resource 2</a>
+                </li>
+                <li class="resources__item"><a target="_blank" href="#" class="resources__link">React Resource 3</a>
+                </li>
+            </ul>
+        </section>
+    </main>
+    <footer class="footer">
+        <menu class="menu">
+            <ul class="menu__lst">
+                <li class="menu__id">Home</li>
+                <li class="menu__id">Projects</li>
+                <li class="menu__id">Articles</li>
+            </ul>
+        </menu>
+        <p class="footer__attribute"><a
+                href="https://ru.freepik.com/free-vector/set-of-black-blobs_43472408.htm#query=abstract%20forms&position=38&from_view=search&track=ais">Изображение
+                от juicy_fish</a> на Freepik</p>
+    </footer>
     </body>
-    </html>
-    </body>
 
-    </html>
+</html>

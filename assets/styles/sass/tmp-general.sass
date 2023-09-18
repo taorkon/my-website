@@ -5,11 +5,11 @@
     padding: 0
 
 body
-    background-color: #363030
+    background-color: #0b0a0aff
 
 .navbar
-    padding-top: 80px
-    //padding-bottom: 50px
+    padding-top: 50px
+    padding-bottom: 50px
 
     //background: linear-gradient(0deg, rgba(0,0,0,0) 0%, rgba(62, 229, 255, 0.6) 100%)
 
@@ -76,7 +76,7 @@ body
     padding-top: 0px
     //padding-bottom: 80px
 .h1-wrap
-    margin-top: 150px
+    margin-top: 100px
     margin-bottom: 200px
 .h1
     //color: $white
@@ -124,6 +124,60 @@ body
     height: 100vh
     //filter: contrast(1000%) brightness(1500%)
     //background: linear-gradient(90deg, rgba(62,229,255,0.4), rgba(0,0,0,0)), url('../../images/svg/header-noise.svg')
+
+.resources
+    text-align: center
+    margin-top: 50px
+    color: $white
+
+    &__headline
+        font-family: 'LCD'
+        font-size: 50px
+        font-weight: 200
+        margin: 0
+        padding: 40px 0 30px 0
+    &__list
+        list-style-type: none
+
+        display: flex
+        //flex-direction: column
+        justify-content: center
+        flex-wrap: wrap
+        align-items: flex-start
+        align-content: center
+        //column-gap: 20px
+        //justify-items: center
+        gap: 20px
+        padding: 0 10vw 0 10vw
+        //width: 40vw
+    &__item
+        border: 0px solid $white
+        padding: 15px
+        width: 400px
+        background: rgba(255, 255, 255, 0.155)
+        color: $white
+        height: 80px
+
+        display: flex
+        justify-content: center
+        align-items: center
+        &-must
+            //border-image: url('../../images/gif/h1-5.gif')
+            //border-image-slice: 1
+            //border-image-repeat: stretch
+            border-width: 0px
+            //border-style: solid
+
+            background: linear-gradient(90deg, rgba(255, 204, 0, 0.929) 0%, rgba(250,0,177,.7) 53%, rgba(0,138,255,.7) 100%)
+
+            color: $white
+            font-weight: normal
+    &__link
+        color: inherit
+        text-decoration: inherit
+
+        font-family: 'Open Sans'
+        font-size: 30px
 
 .footer
     background-color: $night
