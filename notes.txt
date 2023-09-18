@@ -1,0 +1,6 @@
+sticky navbar
+sticky up button
+about short, move to personal page if more (or mb open\widen? and deminishing when scrolling)  
+
+стрелочка наверх пиксельная стики, при клике разлетаются диско звездочки
+как настроить визуал для загрузки? (дискошар или радугу)
