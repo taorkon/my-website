@@ -1,10 +1,18 @@
 sticky navbar
-sticky up button
+
 about short, move to personal page if more (or mb open\widen? and deminishing when scrolling)  
 
 стрелочка наверх пиксельная стики, при клике разлетаются диско звездочки
 если не трогать то она покачивается как в игре в ожидании
 как настроить визуал для загрузки? (дискошар или радугу)
+
+Styles to clicked menu
+Oswald and opensans download
+clean font files
+padding to navbar
+delete div from first resource link
+
+wobflow use?
 
 
 РЕСУРСЫ-----------------------------------------------------------------------------------
@@ -13,8 +21,6 @@ about short, move to personal page if more (or mb open\widen? and deminishing wh
 при наведении эффект + описание?(разворачивается блок)
 поиск по темам?
 поиск по сайту?
-
-ресурсы при ховер обычные добавить гиф рамку вместо белой, для мастов градиент на подвижную гиф
 
 ресурсы css курс на фкк вместо кодакадемии (тк это то где я учила), градиенты не выделять, выделить тока курс
 
@@ -26,6 +32,8 @@ about short, move to personal page if more (or mb open\widen? and deminishing wh
 
 пересмотреть краткий список, организовать подсписки и полный для скачивания
 сплавнить анимацию
+
+RESOURCES ADD EXPL FOR GRADIENT
 -----------------------------------------------------------------------------------------
 
 менять тему на светлую
