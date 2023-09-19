@@ -178,7 +178,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
-  max-height: 200vh;
+  max-height: 180vh;
   gap: 70px;
   align-content: center;
 }
@@ -209,22 +209,83 @@ body {
   color: white;
   height: 80px;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-.resources__item-must {
+.resources__item--must {
   border-width: 0px;
-  background: linear-gradient(90deg, rgba(255, 204, 0, 0.929) 0%, rgba(250, 0, 177, 0.7) 53%, rgba(0, 138, 255, 0.7) 100%);
+  background: radial-gradient(circle, rgba(0, 0, 0, 0.25) 25%, rgba(0, 0, 0, 0) 100%), linear-gradient(90deg, rgba(255, 204, 0, 0.929) 0%, rgba(250, 0, 177, 0.7) 53%, rgba(0, 138, 255, 0.7) 100%);
   color: white;
   font-weight: normal;
 }
 .resources__link {
   color: inherit;
   text-decoration: inherit;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.resources__link-title {
   font-family: "Open Sans";
   font-size: 30px;
+  font-weight: normal;
+}
+.resources__link-description {
+  font-family: "Open Sans";
+  font-size: 20px;
+  line-height: 29px;
+  letter-spacing: 1px;
+  display: none;
 }
 
+.resources__item:hover {
+  height: 200px;
+  justify-content: flex-start;
+  border-image: url("../../images/gif/h1-5.gif");
+  border-image-slice: 1;
+  border-image-repeat: stretch;
+}
+
+.resources__item:hover .resources__link-description {
+  display: inline;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.resources__item:hover .resources__link-title {
+  background-image: url("../../images/gif/h1-5.gif");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: cente;
+  background-size: cover;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.resources__item--must:hover {
+  background-image: radial-gradient(circle, rgba(0, 0, 0, 0.8) 50%, rgba(0, 0, 0, 0) 100%), url("../../images/gif/h1-5.gif");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: cente;
+  background-size: cover;
+}
+
+.resources__item--must:hover .resources__link-title {
+  color: white;
+}
+
+/*.resources__item:hover  .resources__link-underline
+ * height: 3px
+ * width: 70%
+ * margin-top: 2px
+ *
+ * background-image: url('../../images/gif/h1-5.gif')
+ * background-repeat: no-repeat
+ * background-attachment: fixed
+ * background-position: cente
+ * background-size: cover*/
 .footer {
   width: 100%;
   background-color: #0b0a0a;
