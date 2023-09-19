@@ -14,5 +14,7 @@ for resources evety resource like a button with whiite borders,  must with gradi
 поиск по темам?
 поиск по сайту?
 
+форма для автоматического имейла с полным списком на ресурсах
+
 менять тему на светлую
 

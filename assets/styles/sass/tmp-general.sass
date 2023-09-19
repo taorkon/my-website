@@ -8,6 +8,31 @@
 
 body
     background-color: #0b0a0aff
+    display: grid
+    grid-template-columns: auto 0px
+
+.to-top
+    --offset: 50px
+
+    position: sticky
+    bottom: 80px
+    margin-right: 60px
+    place-self: end
+    margin-top: calc(100vh + var(--offset))
+    margin-bottom: calc(30vh + var(--offset))
+
+    //width: 100px
+    &__icon
+        width: 80px
+
+.pulse
+    animation: pulse 1s infinite ease-in-out alternate
+@keyframes pulse
+    from
+        transform: scale(0.87)
+
+    to
+        transform: scale(1.1)
 
 .navbar
 
@@ -15,14 +40,10 @@ body
 
     &--sticky
         background: linear-gradient(0deg, rgba(11, 10, 10, 0) 0%, rgba(11, 10, 10, 1) 100%)
-    
+
         position: sticky
         position: -webkit-sticky
         top: 0
-
-    
-
-    
 
     //background: linear-gradient(0deg, rgba(0,0,0,0) 0%, rgba(62, 229, 255, 0.6) 100%)
 .menu
@@ -45,7 +66,7 @@ body
     //background: radial-gradient(circle, rgba(11, 10, 10, 1) 0%, rgba(238,238,238,0) 100%)
 
 .menu__id
-    
+
     color: $white
     //@include navbar
     //font-family: 'Inter', sans-serif
@@ -171,7 +192,7 @@ body
     //background-image: radial-gradient(at 59% 63%, hsla(197,86%,60%,1) 0px, transparent 50%),radial-gradient(at 24% 47%, hsla(234,82%,66%,1) 0px, transparent 50%),radial-gradient(at 51% 8%, hsla(57,81%,68%,1) 0px, transparent 50%),radial-gradient(at 51% 59%, hsla(282,91%,68%,1) 0px, transparent 50%),radial-gradient(at 40% 28%, hsla(337,79%,70%,1) 0px, transparent 50%),radial-gradient(at 35% 54%, hsla(1,92%,63%,1) 0px, transparent 50%)//, radial-gradient(circle, rgba(0,0,0,0.22591043253238796) 0%, rgba(0,0,0,0.7133053905155813) 100%)//, linear-gradient(10deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.06344544653799022) 100%)
     //background-color: #ffffff1f
     //color: #ffffff1b
-    height: 100vh
+    height: 300vh
     //filter: contrast(1000%) brightness(1500%)
     //background: linear-gradient(90deg, rgba(62,229,255,0.4), rgba(0,0,0,0)), url('../../images/svg/header-noise.svg')
 
@@ -242,7 +263,6 @@ body
         font-size: 30px
 
 .footer
-    
 
     width: 100%
     background-color: $night

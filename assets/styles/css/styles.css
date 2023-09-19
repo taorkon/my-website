@@ -29,8 +29,35 @@
 
 body {
   background-color: #0b0a0a;
+  display: grid;
+  grid-template-columns: auto 0px;
 }
 
+.to-top {
+  --offset: 50px;
+  position: sticky;
+  bottom: 80px;
+  margin-right: 60px;
+  place-self: end;
+  margin-top: calc(100vh + var(--offset));
+  margin-bottom: calc(30vh + var(--offset));
+}
+.to-top__icon {
+  width: 80px;
+}
+
+.pulse {
+  animation: pulse 1s infinite ease-in-out alternate;
+}
+
+@keyframes pulse {
+  from {
+    transform: scale(0.87);
+  }
+  to {
+    transform: scale(1.1);
+  }
+}
 .navbar {
   padding: 50px 0 20px 0;
 }
@@ -142,7 +169,7 @@ body {
 .roadmap {
   background-color: hsl(282, 91%, 68%);
   background-image: radial-gradient(at 100% 100%, hsl(203, 100%, 50%) 0px, transparent 50%), radial-gradient(at 0% 73%, hsl(283, 100%, 50%) 0px, transparent 50%), radial-gradient(at 51% 12%, hsl(40, 100%, 52%) 0px, transparent 50%), radial-gradient(at 4% 7%, hsl(270, 100%, 50%) 0px, transparent 50%), radial-gradient(at 73% 57%, hsl(15, 100%, 50%) 0px, transparent 50%), radial-gradient(at 88% 29%, hsl(316, 100%, 50%) 0px, transparent 50%), radial-gradient(at 0% 56%, hsl(304, 92%, 63%) 0px, transparent 50%), radial-gradient(circle, rgb(0, 0, 0) 0%, rgb(0, 0, 0) 100%);
-  height: 100vh;
+  height: 300vh;
 }
 
 .resources {
