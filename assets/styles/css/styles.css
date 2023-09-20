@@ -265,7 +265,7 @@ body {
 }
 
 .resources__item--must:hover {
-  background-image: radial-gradient(circle, rgba(0, 0, 0, 0.8) 50%, rgba(0, 0, 0, 0) 100%), url("../../images/gif/h1-5.gif");
+  background-image: radial-gradient(circle, rgba(103, 0, 57, 0.7176470588) 20%, rgba(103, 0, 57, 0.7176470588) 80%), url("../../images/gif/h1-5.gif");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: cente;

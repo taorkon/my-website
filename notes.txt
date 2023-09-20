@@ -1,5 +1,5 @@
 sticky navbar
-
+при скроллинге появляется стики бургер менюшка с анимацией
 about short, move to personal page if more (or mb open\widen? and deminishing when scrolling)  
 
 стрелочка наверх пиксельная стики, при клике разлетаются диско звездочки
@@ -13,8 +13,28 @@ padding to navbar
 delete div from first resource link
 
 wobflow use?
+add fun thingys page (fun thingys tutorials?) with links to fun projects (modified small projects of fcc codecademy & facebook REFERENCE THEM) with code blocks that u can copy! (also post to habr? can link my website to habr?)(also codepen?)
+Сначала на англе на сайте и кодпене, потом в хабр как перевод статьи моей
 
+CAN ANIMATION BE AN NFT? 
 
+Modified facebook-------------------------------------------------------------------------
+Mosaic of squares with mutual gif bkg
+Toggle to change bkg
+toggle to shadow over some divs to display diff pictures (emokies, pixelart (mb diff shadowing to do that??)) and with disco mode with all the images appearing one after another
+(mb with kinda fading pulsating effect? make it mega slow for epilepsy mode AND add stop button (chanheg toggle back to sth else))
+-----------------------------------------------------------------------------------------
+Modified FERRIS WHEEL----------------------------------------------------------------
+Add details like the wheel legs, background, line of people, people boarding and un-boarding after several rotations (line getting smaller as new people board)
+после сколльких то итераций дождь-гроза (вспышка на весь сайт?), все разбегаются и колесо останавливается. Потом выходит солнце и заново колесо рабочий запускает, стекаются люди
+
+добавить счетчик от начала до конца (обратный) шоб люди знали что надо еще смотреть
+как приходит чел и запускает колесо мб вначале
+
+периодически пролетают птицы, пробегают собаки
+
+после дождя смену на ночь? ночью на фоне появляются окна домов подсвеченые
+---------------------------------------------------------------------------------------
 РЕСУРСЫ-----------------------------------------------------------------------------------
 для ресцрсов показывать либо все либо только фэйворит на одном либо списки на других стр
 при клике открываются отдельные списки с описаниями ( при наведении на заголовок - глитч?)
@@ -34,7 +54,25 @@ wobflow use?
 сплавнить анимацию
 
 RESOURCES ADD EXPL FOR GRADIENT
+stretch gradient over several divs
+
+в мобилке первый клик открывается описание второй клик открывается ресурс
+------------------------------------------------------------------------------------------
+
+SKILLS------------------------------------------------------------------------------------
+Make a part of projects (toggle switch group by skills)
+скиды и проекты сделать краткие секции и потом по клику на отдкльную стр
+------------------------------------------------------------------------------------------
+COUNTRIES--------------------------------------------------------------------------------
+to funny thingys (мам, ну посмотри\ глянь че могу)
 -----------------------------------------------------------------------------------------
+менять тему на светлую or better non flashing (for epilepsy pll etc) add a tip (or better alert with lang change toggle) wich blurres 
+bkg to show the toggle
+if came to ther pgs NOT from main and hasnt interacted with the toggle, also show
+ADD this preference to cookies!
 
-менять тему на светлую
+посмотреть сайт на ассесибилити, поменять если что
 
+create own animation for up arrow
+
+when changing lan OR appearance add glitch effect (and fade in for new version?)
