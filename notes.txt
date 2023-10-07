@@ -12,6 +12,8 @@ clean font files
 padding to navbar
 delete div from first resource link
 
+parallax scroll to my website
+
 wobflow use?
 add fun thingys page (fun thingys tutorials?) with links to fun projects (modified small projects of fcc codecademy & facebook REFERENCE THEM) with code blocks that u can copy! (also post to habr? can link my website to habr?)(also codepen?)
 Сначала на англе на сайте и кодпене, потом в хабр как перевод статьи моей
@@ -56,6 +58,9 @@ Add details like the wheel legs, background, line of people, people boarding and
 RESOURCES ADD EXPL FOR GRADIENT
 stretch gradient over several divs
 
+scroll thingy indicator of how long to the end
+dynamic layout
+
 в мобилке первый клик открывается описание второй клик открывается ресурс
 ------------------------------------------------------------------------------------------
 
@@ -65,6 +70,13 @@ Make a part of projects (toggle switch group by skills)
 ------------------------------------------------------------------------------------------
 COUNTRIES--------------------------------------------------------------------------------
 to funny thingys (мам, ну посмотри\ глянь че могу)
+-----------------------------------------------------------------------------------------
+ABOUT-----------------------------------------------------------------------------------
+@taorkon, [16/09/2023 15:40]
+recently started to learn frontend, enjoying the learning process at specifically not the break-neck speed
+
+@taorkon, [16/09/2023 15:45]
+travel, language enthusiast (learned aout 6 lang at some point, though can currently peoduce at least some kind of a speech in 4), current interest: history & politic books (i m rather amateurish tho) eg machiavelli prince, next up: karl's the capital
 -----------------------------------------------------------------------------------------
 менять тему на светлую or better non flashing (for epilepsy pll etc) add a tip (or better alert with lang change toggle) wich blurres 
 bkg to show the toggle

@@ -1,5 +1,6 @@
 @import colors
 @import fonts-poster
+
 *
     margin: 0
     padding: 0
@@ -18,6 +19,7 @@ body
     bottom: 80px
     margin-right: 60px
     place-self: end
+    //margin-top: 1500px
     margin-top: calc(100vh + var(--offset))
     margin-bottom: calc(30vh + var(--offset))
 
@@ -54,7 +56,8 @@ body
 .menu__lst
     display: flex
     justify-content: center
-    gap: 50px
+    align-items: center
+    gap: 3%
 
     margin: 0
     padding: 0
@@ -83,6 +86,9 @@ body
 .menu__link
     color: inherit
     text-decoration: inherit
+
+.menu__link:hover 
+    font-weight: 600
 
 .header
 
@@ -150,17 +156,20 @@ body
         margin-top: 50px
         margin-bottom: 30px
     &__h2
+
         //color: $white
         //background-color: hsla(282,91%,68%,1)
         background-image: url('../../images/gif/h1-5.gif')
-        background-repeat: no-repeat
+        //background: linear-gradient(-45deg, #9400D3, #4B0082, #00FF00, #FFFF00, #FF7F00, #FF0000)
+        //animation: gradient 5s ease infinite
+        //background-repeat: no-repeat
         background-attachment: fixed
-        background-position: cente
+        //background-position: cente
         background-size: cover
         //background-image: radial-gradient(at 59% 63%, hsla(197,86%,60%,1) 0px, transparent 50%),radial-gradient(at 24% 47%, hsla(234,82%,66%,1) 0px, transparent 50%),radial-gradient(at 51% 8%, hsla(57,81%,68%,1) 0px, transparent 50%),radial-gradient(at 51% 59%, hsla(282,91%,68%,1) 0px, transparent 50%),radial-gradient(at 40% 28%, hsla(337,79%,70%,1) 0px, transparent 50%),radial-gradient(at 35% 54%, hsla(1,92%,63%,1) 0px, transparent 50%)
-
         -webkit-background-clip: text
         -webkit-text-fill-color: transparent
+
         @include lcd
         text-transform: uppercase
         //font-family: 'Open Sans'
@@ -253,8 +262,15 @@ body
             border-width: 0px
             //border-style: solid
 
-            background: radial-gradient(circle, rgba(0, 0, 0,.25) 25%, rgba(0, 0, 0, 0) 100%), linear-gradient(90deg, rgba(255, 204, 0, 0.929) 0%, rgba(250,0,177,.7) 53%, rgba(0,138,255,.7) 100%),
+            //background: linear-gradient(180deg, rgba(255, 204, 0, 0.929) 0%, rgba(250,0,177,.7) 23%, rgba(0,138,255,.7) 100%)
+            background: linear-gradient(180deg, rgba(250,0,177,.7) 60%, rgba(0,138,255,.7) 100%)
 
+            //background-image: radial-gradient(at 100% 100%, hsla(203,100%,50%,1) 0px, transparent 50%),radial-gradient(at 0% 73%, hsla(283,100%,50%,1) 0px, transparent 50%),radial-gradient(at 51% 12%, hsla(40,100%,52%,1) 0px, transparent 50%),radial-gradient(at 4% 7%, hsla(270,100%,50%,1) 0px, transparent 50%),radial-gradient(at 73% 57%, hsla(15,100%,50%,1) 0px, transparent 50%),radial-gradient(at 88% 29%, hsla(316,100%,50%,1) 0px, transparent 50%),radial-gradient(at 0% 56%, hsla(304,92%,63%,1) 0px, transparent 50%)
+
+            background-attachment: fixed
+            background-size: cover
+
+            border-radius: 3px
             color: $white
             font-weight: normal
     &__link
@@ -281,11 +297,18 @@ body
 
 //Pseudoclass actions for resources
 
+/*.resources__list:after
+ content: ''
+ background: linear-gradient(rgb(255, 143, 178) 0%, rgb(167, 151, 255) 50%, rgb(0, 229, 255) 100%)
+ mix-blend-mode: screen
+ pointer-events: none*/
+
 .resources__item:hover
     height: 200px
     justify-content: flex-start
 
     border-image: url('../../images/gif/h1-5.gif')
+    //border-image: linear-gradient(90deg, #ff9100, #FF006E, #ff50f0, #3A86FF, #ff50f0, #FF006E, #ff9100)
     border-image-slice: 1
     border-image-repeat: stretch
 
@@ -298,24 +321,69 @@ body
     background-image: url('../../images/gif/h1-5.gif')
     background-repeat: no-repeat
     background-attachment: fixed
-    background-position: cente
+    background-position: center
     background-size: cover
+    //font-weight: 600
 
     -webkit-background-clip: text
     -webkit-text-fill-color: transparent
 
 .resources__item--must:hover
-    background-image: radial-gradient(circle, #670039b7 20%, #670039b7  80%), url('../../images/gif/h1-5.gif')
+    //background-image: radial-gradient(circle, #670039b7 20%, #670039b7 80%), url('../../images/gif/h1-5.gif')
+    background: linear-gradient(90deg, #ff9100, #FF006E, #ff50f0, #3A86FF, #ff50f0, #FF006E, #ff9100)
+    background-size: 250% 250%
+    background-attachment: fixed
+    //background-attachment: fixed
+
+    -webkit-animation: gradient 3s linear infinite
+    -moz-animation: gradient 3s linear infinite
+    -o-animation: gradient 3s linear infinite
+    animation: gradient 3s linear infinite
+
+        //animation: gradient 5s ease infinite
     //radial-gradient(circle, #950084c6 20%, rgba(69,4,87,0) 80%)
 
     //background-image: radial-gradient(circle, rgba(0, 0, 0,.8) 50%, rgba(0, 0, 0, 0) 100%), url('../../images/gif/h1-5.gif')
-    background-repeat: no-repeat
-    background-attachment: fixed
-    background-position: cente
-    background-size: cover
+    //background-repeat: no-repeat
+    //background-attachment: fixed
+    //background-position: cente
+    //background-size: cover
 
 .resources__item--must:hover .resources__link-title
+    //background-image: none
+    //text-decoration-color: $white
+    font-weight: 600
+    -webkit-background-clip: text
+    -webkit-text-fill-color: $white
     color: $white
+
+@-webkit-keyframes gradient
+    0%
+    background-position: 0% 50%
+
+    100%
+    background-position: 165% 50%
+
+@-moz-keyframes gradient
+    0%
+    background-position: 0% 50%
+
+    100%
+    background-position: 165% 50%
+
+@-o-keyframes gradient
+    0%
+    background-position: 0% 50%
+
+    100%
+    background-position: 165% 50%
+
+@keyframes gradient
+    0%
+        background-position: 0% 50%
+
+    100%
+        background-position: 165% 50%
 
 /*.resources__item:hover  .resources__link-underline
  height: 3px
